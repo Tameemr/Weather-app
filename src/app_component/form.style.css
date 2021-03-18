@@ -12,6 +12,11 @@ form input[name="country"] {
 }
 
 form input:focus {
-  background-color: transparent;
+  background-color: transparent !important;
   box-shadow: none !important;
+  color: white !important;
+}
+
+.container ::-webkit-input-placeholder {
+  color: rgb(167, 167, 167) !important;
 }
